@@ -189,6 +189,10 @@ li > h3 a span {
   padding: 6px 0 0;
 }
 
+.print-only {
+  display: none;
+}
+
 @media print, screen and (min-width: 480px) {
   .left {
     width: 160px;
@@ -255,5 +259,8 @@ li > h3 a span {
   }
   .btn-print {
     display: none;
+  }
+  .print-only {
+    display: initial;
   }
 }
