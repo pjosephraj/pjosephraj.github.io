@@ -189,7 +189,21 @@ li > h3 a span {
   padding: 6px 0 0;
 }
 
+.projects-item {
+  font-size: .9rem;
+  margin-top: .5rem;
+  font-weight: 500;
+}
+
+.projects li, .projects p {
+  font-size: .95rem;
+}
+
 .print-only {
+  display: none;
+}
+
+.projects {
   display: none;
 }
 
