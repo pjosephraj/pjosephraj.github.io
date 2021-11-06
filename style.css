@@ -203,9 +203,9 @@ li > h3 a span {
   display: none;
 }
 
-.projects {
+/* .projects {
   display: none;
-}
+} */
 
 @media print, screen and (min-width: 480px) {
   .left {
